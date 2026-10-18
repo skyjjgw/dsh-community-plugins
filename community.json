@@ -1674,5 +1674,16 @@
     "npm": "dsh-streamfold",
     "category": "ui",
     "subcategory": "chat"
+  },
+  {
+    "id": "dsh-plugin-android-preview",
+    "name": "Android 手机预览",
+    "nameEn": "Android App Preview",
+    "author": "skyjjgw",
+    "description": "在本机 Windows 的 DSH 0.2.1-rc.2+ 聊天右侧显示指定安卓模拟器的真实画面，支持鼠标、键盘操作和保存 Dart 后热重载。当前仅适配星伴 / Operit2 工程，需要已有 Android SDK、模拟器、Flutter、scrcpy 3.3.3、工程预览脚本及调试 APK。启用插件后监听本机回环地址；打开页签才执行工程脚本、安装已有调试 APK 并连接 ADB、scrcpy 和 Flutter。仅验证竖屏，不含音频。",
+    "descriptionEn": "Shows a selected Android emulator's real screen in the chat sidebar of a local Windows DSH 0.2.1-rc.2+ host, with mouse/keyboard control and Dart hot reload on save. Currently specific to Starcompanion / Operit2; requires an existing Android SDK, emulator, Flutter, scrcpy 3.3.3, project preview scripts and debug APK. Activation opens a loopback service; opening the tab runs the project scripts, installs the existing debug APK and connects ADB, scrcpy and Flutter. Portrait tested; no audio.",
+    "repo": "https://github.com/skyjjgw/dsh-plugin-android-preview",
+    "category": "tools",
+    "subcategory": "dev"
   }
 ]
